@@ -14,7 +14,8 @@ author:
 markdown:       kramdown
 
 disqus-shortname: yooonyoung
-g-analytics: UA-121999511-1
+google_analytics:
+  ua: 'UA-121999511-1'
 
 # Assets
 sass:
