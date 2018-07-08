@@ -1,12 +1,12 @@
 # Site settings
-title:          Yoonyoung's blog
+title:          yoonyoung's blog
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        "/"
 url:            "https://yooonyoung.github.io/"
 
 # Author
 author:
-  name:         Yoonyoung
+  name:         yoonyoung
   url:          https://chester.how
   email:        dbsydd@gmail.com
 
