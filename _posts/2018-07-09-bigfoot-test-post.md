@@ -11,8 +11,9 @@ bigfoot을 이용하여 각주를 예쁘게 만들고 있다.[^1]: 이렇게 하
 이게 된다면 본문으로 돌아가는 기능을 위해 또 수정해야 한다.
 
 ```
-<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery-3.3.1.js"></script>
 <script type="text/javascript" src="/js/bigfoot.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 <script type="text/javascript">
         var bigfoot = $.bigfoot(
                        {
