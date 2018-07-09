@@ -1,17 +1,21 @@
 # Site settings
-title:          Tale
+title:          yoonyoung's blog
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        "/"
 url:            "https://yooonyoung.github.io/"
 
 # Author
 author:
-  name:         Chester How
+  name:         yoonyoung
   url:          https://chester.how
-  email:        chesterhow@gmail.com
+  email:        dbsydd@gmail.com
 
 # Build settings
 markdown:       kramdown
+
+disqus-shortname: yooonyoung
+google_analytics:
+  ua: 'UA-121999511-1'
 
 # Assets
 sass:
