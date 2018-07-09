@@ -2,6 +2,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script type="text/javascript" src="/js/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="/js/bigfoot.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript">
+	    var bigfoot = $.bigfoot(
+	        {
+	        actionOriginalFN: "ignore",
+	        positionContent: "false",
+	        allowMultipleFN: "true",
+	        activateOnHover: "true",
+	        deleteOnUnhover: "true"
+	        }
+	    );
+	 </script>
+  
   <title>
     {% if page.title == "Home" %}
       {{ site.title }}
@@ -34,15 +49,3 @@
   gtag('config', 'UA-121999511-1');
 </script>
 
-<!-- bigfoot -->
-<script type="text/javascript" src="/js/jquery-3.3.1.js"></script>
-<script type="text/javascript" src="/js/bigfoot.min.js"></script>
-<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-<script type="text/javascript">
-        var bigfoot = $.bigfoot(
-                       {
-                       actionOriginalFN: "ignore",
-                       positionContent: "true"
-                       }
-        );
-</script>
