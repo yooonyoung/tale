@@ -2,11 +2,33 @@
 
 layout: post
 
-title: "다이나믹 프로그래밍의 기본 풀이 방법"
+title: "다이나믹 프로그래밍(Dynamic Programming)의 기본 풀이 방법"
 
 ---
-
+**다이나믹 프로그래밍(Dynamic Programming)**이란, 큰 문제를 작은 문제로 나눠서 푸는 알고리즘을 말한다. 작은 문제로부터 큰 문제의 정답을 찾을 수 있기 때문에 같은 문제는 구할 때마다 정답이 같고, 정답을 한 번 풀었다면 정답을 메모해놓아야 한다. 이런 메모를 코드에서는 배열에 저장하는 방식으로 할 수 있으며, 이것을 Memoization이라고 한다.<br>
 피보나치 문제를 예시로 들어보겠다.<br>
+```c++
+int fibonacci(int n) {
+	if(n <= 1) {
+    	return n;
+    } else {
+    	return fibonacci(n-1) + fibonacci(n-2);
+    }
+}
+```
+위 코드를 Memoization을 이용해 다음과 같이 구현할 수 있다.
+```c++
+int memo[100];
+int fibonacci(int n) {
+	if (n <= 1) {
+    	return n;
+    } else {
+    	memo[n] = fibonacci(n-1) + fibonacci(n-2);
+        return memo[n];
+    }
+}
+```
+<br>
 `memo[i] = i번째 피보나치 수`<br>
 보통 다이나믹 프로그래밍 문제에서는 memo[i]를 d[i], 또는 dp[i] 라고 한다.<br>
 -> d[i]에 무엇이 들어가야 할지 먼저 정의해야 한다.<br>
