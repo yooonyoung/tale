@@ -6,7 +6,7 @@ layout: default
   <div class="post-info">
     {% if page.date %}
       <br>
-      on&nbsp;<time datetime="{{ page.date }}">{{ page.date | date: "%Y년 %M월 %d일" }}</time>
+      on&nbsp;<time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
     <br>
     <span>
