@@ -39,7 +39,7 @@ int fibonacci(int n) {
 이렇게 점화식을 완성한 다음부터는 테이블을 하나씩 채워나가는 방식으로 문제를 풀어나갈 수 있다.
 
 **Top-down** : 큰 문제를 점점 작게 만들어나가는 방식(보통 재귀함수) <br>
-fibonacci(n)을 풀어야한다고 가정하자. fibonacci(n)을 fibonacci(n-1)과 fibonacci(n-2)로 나누고, fibonacci(n-1)과 fibonacci(n-2)를 호출해 문제를 푼다. 그리고 fibonacci(n-1)의 값과 fibonacci(n-2)의 값을 더해 fibonacci(n)을 푼다. 시간복잡도는 채워야 하는 칸의 수 * 1칸을 채우는 시간복잡도 이다.
+fibonacci(n)을 풀어야한다고 가정하자. fibonacci(n)을 fibonacci(n-1)과 fibonacci(n-2)로 나누고, fibonacci(n-1)과 fibonacci(n-2)를 호출해 문제를 푼다. 그리고 fibonacci(n-1)의 값과 fibonacci(n-2)의 값을 더해 fibonacci(n)을 푼다. 시간복잡도는 `채워야 하는 칸의 수 * 1칸을 채우는 시간복잡도` 이다.
 ```c++
 int d[100];
 int fibonacci(int n) {
