@@ -1,7 +1,32 @@
+
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/js/bigfoot.min.js"></script>
+	
+<script type="text/javascript">
+  $.bigfoot({
+    actionOriginalFN: "delete",
+    activateOnHover: "true",
+    deleteOnUnhover: "true",
+    hoverDelay: "500"
+  });
+</script>
+  <script type="text/javascript">
+	    var bigfoot = $.bigfoot(
+	        {
+	        actionOriginalFN: "ignore",
+	        positionContent: "false",
+	        allowMultipleFN: "true",
+	        activateOnHover: "true",
+	        deleteOnUnhover: "true"
+	        }
+	    );
+	 </script>
+  
   <title>
     {% if page.title == "Home" %}
       {{ site.title }}
@@ -23,3 +48,14 @@
   <!-- RSS -->
   {% feed_meta %}
 </head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121999511-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121999511-1');
+</script>
+

@@ -13,7 +13,7 @@ Tale is a minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers
 - Markdown and HTML text formatting
 - Pagination of posts
 
-Head over to the [Example Content]({{ site.baseurl }}/2017-03-16/example-content) post for a showcase of Tale's text formatting features.
+Head over to the [Example Content]({{ site.baseurl }}/2017-03-16/example-content) post for a showcase of Tale's text formatting features.[^1]
 
 ## Browser Support
 Tale works on most if not all modern browsers, including Chrome, Safari and Firefox 👍🏼
@@ -22,3 +22,5 @@ Tale works on most if not all modern browsers, including Chrome, Safari and Fire
 Tale is publicly hosted on GitHub, so go ahead and download or fork it at the [GitHub repository](https://github.com/chesterhow/tale). If you spot any bugs or have any suggestions, feel free to create an issue or make a pull request.
 
 Thanks for checking out Tale!
+
+[^1]:이것이 각주 맞나요? 설명은 어떻게 쓰죠?

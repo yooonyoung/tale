@@ -13,6 +13,10 @@ author:
 # Build settings
 markdown:       kramdown
 
+disqus-shortname: yooonyoung
+google_analytics:
+  ua: 'UA-121999511-1'
+
 # Assets
 sass:
   sass_dir:     _sass
@@ -27,3 +31,5 @@ plugins:
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
+gems:
+  - jekyll-paginate
