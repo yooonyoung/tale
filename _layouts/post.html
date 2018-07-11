@@ -4,9 +4,6 @@ layout: default
 
 <div class="post">
   <div class="post-info">
-<<<<<<< HEAD
-    <span>Written by</span>
-=======
     
     {% if page.date %}
       <br>
@@ -14,20 +11,12 @@ layout: default
       <br>
     {% endif %}
     
->>>>>>> 9da1b8493e2a8cefb3f6227876dbc4a24f7130fe
     {% if page.author %}
         {{ page.author }}
     {% else %}
         {{ site.author.name }}
     {% endif %}
 
-<<<<<<< HEAD
-    {% if page.date %}
-      <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-    {% endif %}
-=======
->>>>>>> 9da1b8493e2a8cefb3f6227876dbc4a24f7130fe
   </div>
 
   <h1 class="post-title">{{ page.title }}</h1>
@@ -47,8 +36,6 @@ layout: default
 
   <a href="#" class="top">Top</a>
 </div>
-<<<<<<< HEAD
-=======
 
 
 <div id="disqus_thread"></div>
@@ -70,5 +57,3 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
->>>>>>> 6951d977a4e62ed00941b1db4221fa6bf8b0d16a
