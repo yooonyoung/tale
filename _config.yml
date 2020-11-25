@@ -32,3 +32,6 @@ plugins:
 permalink:      /:year-:month-:day/:title
 paginate:       5
 
+# Category
+category_list: [ project, ]
+
